@@ -1,0 +1,122 @@
+:root {
+  --blue: #dff1ff;
+  --pink: #ffe6f2;
+  --card: #ffffffcc;
+  --text: #2d3a4a;
+  --sub: #6f7a86;
+  --shadow: 0 10px 30px rgba(80, 110, 140, 0.12);
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--blue), var(--pink));
+  min-height: 100vh;
+  line-height: 1.8;
+}
+
+.bg-decor {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 20%, #ffffff88 0 12%, transparent 13%),
+    radial-gradient(circle at 85% 80%, #ffffff66 0 10%, transparent 11%);
+  pointer-events: none;
+}
+
+.container {
+  width: min(920px, 92%);
+  margin: 40px auto 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.site-header p {
+  color: var(--sub);
+  margin-top: 8px;
+}
+
+.diary-list {
+  display: grid;
+  gap: 18px;
+}
+
+.diary-card {
+  background: var(--card);
+  border: 1px solid #ffffff88;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(5px);
+  padding: 18px 20px;
+}
+
+.diary-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.meta {
+  color: var(--sub);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.body {
+  color: #334155;
+}
+
+.body p { margin: 10px 0; }
+.body h1, .body h2, .body h3 { margin: 12px 0 8px; }
+.body ul, .body ol { margin-left: 20px; }
+
+.empty {
+  text-align: center;
+  color: var(--sub);
+  background: #ffffff88;
+  border-radius: var(--radius);
+  padding: 30px 10px;
+}
+
+.search-wrap {
+  margin: 14px auto 0;
+  max-width: 520px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #ffffffaa;
+  background: #ffffffcc;
+  color: #2d3a4a;
+  outline: none;
+  box-shadow: 0 6px 18px rgba(80, 110, 140, 0.08);
+  font-size: 0.98rem;
+}
+
+#search-input:focus {
+  border-color: #9fd3ff;
+  box-shadow: 0 8px 20px rgba(90, 140, 190, 0.16);
+}
