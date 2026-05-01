@@ -63,8 +63,8 @@ diary-site/
 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>.git
-cd diary-site
+git clone https://github.com/SHxiaoleya/TheDiaryWeb.git
+cd TheDiaryWeb
 ```
 
 2. 安装依赖
