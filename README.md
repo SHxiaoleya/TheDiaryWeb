@@ -39,6 +39,7 @@
 
 ## 📂 项目结构
 
+```
 diary-site/
 ├─ server.js
 ├─ package.json
@@ -49,6 +50,7 @@ diary-site/
    ├─ index.html
    ├─ style.css
    └─ app.js
+```
 
 ---
 
