@@ -5,7 +5,7 @@
 
 ---
 ## 🖼 截图展示
-!<img width="1419" height="767" alt="image" src="https://github.com/user-attachments/assets/133f9f2e-f333-481b-9a4c-587c5838e969" />
+<img width="1419" height="767" alt="image" src="https://github.com/user-attachments/assets/133f9f2e-f333-481b-9a4c-587c5838e969" />
 
 ---
 
