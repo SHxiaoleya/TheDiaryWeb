@@ -4,6 +4,10 @@
 支持从项目目录下读取 `.md` 文件并展示日记内容，包含标题、日期、天气与正文，同时支持关键词搜索（标题 + 正文）。
 
 ---
+## 🖼 截图展示
+!<img width="1419" height="767" alt="image" src="https://github.com/user-attachments/assets/133f9f2e-f333-481b-9a4c-587c5838e969" />
+
+---
 
 ## 📌 项目特色
 
