@@ -2,7 +2,7 @@
 
 一个简洁美观的日记展示网站，淡蓝淡粉渐变主色调（可自定义背景图）。  
 支持从项目目录下读取 `.md` 文件并展示日记内容，包含标题、日期、天气与正文，同时支持关键词搜索（标题 + 正文）。
-如果你想要在受限环境（虚拟主机）下使用，可前往[Tre Diary Web - PHP](https://github.com/SHxiaoleya/TreDiaryWeb-PHP)
+如果你想要在受限环境（虚拟主机，网页托管）下使用，可前往[Tre Diary Web - PHP](https://github.com/SHxiaoleya/TreDiaryWeb-PHP)
 
 ---
 ## 🖼 截图展示
