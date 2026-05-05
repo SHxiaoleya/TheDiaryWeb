@@ -54,6 +54,7 @@ diary-site/
 └─ public/
    ├─ index.html
    ├─ style.css
+   ├─ style-0.css
    └─ app.js
 ```
 
